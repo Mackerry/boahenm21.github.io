@@ -266,3 +266,35 @@
  </div>
  </body>
  </html>
+ #start again
+<html>
+    <head>
+        <title></title>
+        <style>
+            #netframe {
+                float:right; 
+                height: 100%; 
+                width: 80%;
+            }
+
+            #sidebar {
+                float:left; 
+                height: 100%; 
+                width: 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="sidebar">
+                Enter A URL:
+                <input type="text" name="url" id="url">
+                <input type="button" value="load" id="load">
+                <br><br>    
+            </div>
+            <div id="netframe">
+                <iframe height="100%" width="100%" class="netframe" src="pullsite.php" id="main_frame"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
